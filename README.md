@@ -7,7 +7,7 @@ use that user account.
 
     export AWS_ACCESS_KEY_ID=AK...
     export AWS_SECRET_ACCESS_KEY=...
-    export MFA_ARN=arn:aws:iam::<account id>:mfa/<username>
+    export AWS_MFA_ARN=arn:aws:iam::<account id>:mfa/<username>
 
 At this point awsc is almost ready to run. Now you use environment variables to configure which roles you can assume. The syntax for this:
 
